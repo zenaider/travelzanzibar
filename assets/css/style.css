@@ -89,10 +89,10 @@
     width: 100%;
     height: 870px;
     position: relative;
-    background-image: url(https://leloc90.github.io/loveTravel/assets/images/parallax-2.jpg);
+    background-image: url(../images/2.jpeg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: 100% 100%;
   }
   
   /*START HEADER */
@@ -692,7 +692,7 @@
     height: 204px;
     width: 100%;
     background: no-repeat center / cover
-      url(https://leloc90.github.io/loveTravel/assets/images/parallax-search-2.jpg);
+      url(../images/beaches);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -942,12 +942,12 @@
   
   .discover__img-1 {
     background: no-repeat center / cover
-      url(https://i.pinimg.com/564x/d6/62/c1/d662c1c1725a7d182c1712d9f1ee106c.jpg);
+      url(../images/grf.jpeg);
   }
   
   .discover__img-2 {
     background: no-repeat center / cover
-      url(https://i.pinimg.com/564x/ac/e5/ed/ace5ed785beb820ccbf5f202bf5bf3f7.jpg);
+      url(../images/bch.jpeg);
   }
   
   .discover__item {
@@ -1151,7 +1151,7 @@
   footer {
     margin-top: 60px;
     background: no-repeat center / cover
-      url(https://i.pinimg.com/564x/3d/3a/3d/3d3a3d91c6661b52356b8957de137b3e.jpg);
+      url(../images/kilimanjaro.jpg);
     width: 100%;
     padding-top: 38%;
     position: relative;
