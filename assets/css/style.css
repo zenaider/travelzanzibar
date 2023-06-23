@@ -14,6 +14,9 @@
   
   body {
     font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
   
   :root {
@@ -255,6 +258,9 @@
     transform: translateY(1px);
   }
   
+  .theme{
+    display: block;
+  }
   /* End Subnav */
   
   /* END HEADER */
@@ -511,32 +517,32 @@
   
   .dest__europe {
     background: no-repeat center / cover
-      url(https://i.pinimg.com/564x/e7/ac/31/e7ac31fe00d29fbba88251c8e87f0f8f.jpg);
+   url(../images/masai.jpg)
   }
   
   .dest__thailandia {
     background: no-repeat center / cover
-      url(https://i.pinimg.com/564x/8b/84/49/8b8449cf9de2e1880cd774be3157960b.jpg);
+      url(../images/kili.jpg);
   }
   
   .dest__asia {
     background: no-repeat center / cover
-      url(https://i.pinimg.com/564x/94/b3/d2/94b3d2d4aaeb950c498c26f19917393e.jpg);
+      url(../images/tanz.jpg);
   }
   
   .dest__italy {
     background: no-repeat center / cover
-      url(https://i.pinimg.com/564x/ad/b2/ba/adb2babdef50452e60ef77d5e3cbbba6.jpg);
+      url(../images/zanzibar\ otel.jpg);
   }
   
   .dest__netherlands {
     background: no-repeat center / cover
-      url(https://i.pinimg.com/564x/22/e0/25/22e025a2be1481376455d424593041db.jpg);
+      url(../images/zanz\ activty.jpg);
   }
   
   .dest__usa {
     background: no-repeat center / cover
-      url(https://i.pinimg.com/564x/fc/52/da/fc52da4969cc8d0c02eadaecdb8a7f8d.jpg);
+      url(../images/stonetown.jpg);
   }
   
   .dest__item img {
@@ -840,7 +846,7 @@
   
   .beaches__img-3 {
     background: no-repeat center / cover
-      url(https://leloc90.github.io/loveTravel/assets/images/package-3.jpg);
+      url(../images/zanz\ activty.jpg);
   }
   
   .beaches__wrap-time {
@@ -1018,17 +1024,17 @@
   
   .--item-img-1 {
     background: no-repeat center / cover
-      url(https://i.pinimg.com/564x/47/e2/8c/47e28cb37314c93cdb615ff64bd2c0e5.jpg);
+      url(../images/fukwe.jpg);
   }
   
   .--item-img-2 {
     background: no-repeat center / cover
-      url(https://i.pinimg.com/564x/4a/0b/ea/4a0bea20dae8f4246f46d4e46cdf547b.jpg);
+      url(../images/mbuga.jpg);
   }
   
   .--item-img-3 {
     background: no-repeat center / cover
-      url(https://i.pinimg.com/564x/88/48/78/884878043ee17464c8972e66effcc716.jpg);
+      url(../images/climbing-mount-kilimanjaro-scaled.jpg);
   }
   
   .promotion__item-sticker-1,
@@ -1146,15 +1152,21 @@
   
   /* END PROMOTION */
   
+  .about{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+  }
   /* START FOOTER */
   
   footer {
     margin-top: 60px;
     background: no-repeat center / cover
-      url(../images/kilimanjaro.jpg);
+      url(../images/background.jpg);
     width: 100%;
     padding-top: 38%;
     position: relative;
+    hei
   }
   
   .footer__container {
@@ -1859,3 +1871,7 @@
     }
   }
   
+  /*detail1*/
+  .photo{
+    background-image: ;
+  }
