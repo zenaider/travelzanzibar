@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Zanzibar</title>
+</head>
+<div class="container">
+  <body>
+    <main>
+      <section class="theme__container">
+        <!-- HEADER -->
+        <header class="flex-box">
+          <div class="header__left flex-box">
+            <a href="index.html" class="header__logo">
+              <img src="./assets/images/logo.png" alt="Logo">
+            </a>
+            <ul class="hide-on-tablet-mobile header__navbar flex-box">
+              <li class="navbar__item"><a href="index.html" class="navbar__link">HOME</a></li>
+              <li class="navbar__item"><a href="Packages.html" class="navbar__link">PACKAGES</a>
+                <ul class="header__subnav">
+                  <li class="subnav__item"><a href="zanzibar.html" class="subnav__link">
+                      ZANZIBAR BEACH PACKAGES
+                    </a>
+                    <span class="subnav__sticker-color-red">HOT</span>
+                  </li>
+                  <li class="subnav__item"><a href="Kilimanjaro.html" class="subnav__link">MOUNTAIN CLIMBING</a></li>
+                  <li class="subnav__item"><a href="safari.html" class="subnav__link">WILD SAFARIS PACKAGE</a></li>
+                </ul>
+              </li>
+            
+              <li class="navbar__item"><a href="about.html" class="navbar__link">ABOUT US</a>
+    
+              </li>
+              <li class="navbar__item"><a href="contact.html" class="navbar__link">CONTACT</a>
+              </li>
+              <li class="navbar__item"><a href="Packages.html" class="pri-btn navbar__btn navbar__link">BOOK NOW</a></li>
+          </div>
+          <div class="header__right">
+            <label for="sub-menu__check" class="header__menu-icon">
+              <i class='bx bx-menu'></i>
+            </label>
+          </div>
+        </header>
+        <input hidden type="checkbox" id="sub-menu__check" class="sub-menu__check">
+      
+        <!-- SUB MENU -->
+      
+        <label for="sub-menu__check" class="sub-menu hide-on-tablet-mobile">
+          <label for="sub-menu__check"><i class='sub-menu__close-btn bx bx-x-circle'></i></label>
+      
+          <div class="sub-menu__places">
+            <p class="sub-title__text">BEST</p>
+      
+            <h2 class="title__text --title__text-underline sub-menu__text">PACKAGES</h2>
+      
+            <div class="sub-menu__place-wrap">
+              <img src="./assets/images/berlin.jpg" alt="Berlin">
+              <div class="sub-menu__place-info">
+                <h5>Berlin</h5>
+                <p><i class='bx bx-map'></i>Europe</p>
+                <a href="" class="pri-btn sub-menu__btn --berlin-btn-color">FROM 700$</a>
+              </div>
+            </div>
+      
+            <div class="sub-menu__place-wrap">
+              <img src="./assets/images/hong-kong.jpg" alt="Hong Kong">
+              <div class="sub-menu__place-info">
+                <h5>Hong Kong</h5>
+                <p><i class='bx bx-map'></i>Asia</p>
+                <a href="" class="pri-btn sub-menu__btn --hong-kong-btn-color">FROM 500$</a>
+              </div>
+            </div>
+      
+            <div class="sub-menu__place-wrap">
+              <img src="./assets/images/San-francisco.jpg" alt="San Francisco">
+              <div class="sub-menu__place-info">
+                <h5>San Francisco</h5>
+                <p><i class='bx bx-map'></i>United States</p>
+                <a href="" class="pri-btn sub-menu__btn --san-fran-btn-color">FROM 400$</a>
+              </div>
+            </div>
+      
+          </div>
+      
+          <div class="dest__item sub-menu__dest-item dest__europe">
+            <img src="./assets/images/arch.png" alt="">
+            <div class="dest__item-info">
+              <p class="dest__item-title">Europe</p>
+              <p class="dest__item-text">3 PACKAGES</p>
+            </div>
+            <div class="dest__overlay">
+              <h5>Packages</h5>
+              <ul class="dest__overlay-list">
+                <li class="dest__overlay-item">
+                  <a href="" class="dest__overlay-link">Berlin</a>
+                </li>
+                <li class="dest__overlay-item">
+                  <a href="" class="dest__overlay-link">Amsterdam</a>
+                </li>
+                <li class="dest__overlay-item">
+                  <a href="" class="dest__overlay-link">Tuscany</a>
+                </li>
+                <a href="" class="dest__overlay-btn">VIEW DESTINATION</a>
+              </ul>
+            </div>
+          </div>
+      
+          <div class="sub-menu__places">
+            <p class="sub-title__text">LAST</p>
+      
+            <h2 class="title__text --title__text-underline sub-menu__text ">MINUTES</h2>
+      
+            <div class="sub-menu__place-wrap">
+              <img src="./assets/images/tuscany.jpg" alt="Berlin">
+              <div class="sub-menu__place-info">
+                <h5>Tuscany</h5>
+                <p><i class='bx bx-map'></i>Italia</p>
+                <a href="" class="pri-btn sub-menu__btn --tuscany-btn-color">FROM 730$</a>
+              </div>
+            </div>
+      
+            <div class="sub-menu__place-wrap">
+              <img src="./assets/images/amsterdam.jpg" alt="Hong Kong">
+              <div class="sub-menu__place-info">
+                <h5>Amsterdam</h5>
+                <p><i class='bx bx-map'></i>Netherlands</p>
+                <a href="" class="pri-btn sub-menu__btn --amsterdam-btn-color">FROM 1500$</a>
+              </div>
+            </div>
+      
+            <div class="sub-menu__place-wrap">
+              <img src="./assets/images/phuket.jpg" alt="San Francisco">
+              <div class="sub-menu__place-info">
+                <h5>Phuket</h5>
+                <p><i class='bx bx-map'></i>Thailandia</p>
+                <a href="" class="pri-btn sub-menu__btn --phuket-btn-color">FROM 1200$</a>
+              </div>
+            </div>
+      
+          </div>
+        </label>
+      
+        <label for="sub-menu__check" class="sub-menu-tablet-mobile hide-on-desktop">
+          <label for="sub-menu__check"><i class='sub-menu__close-btn bx bx-x-circle'></i></label>
+          <ul class="navbar-mobile__list">
+            <li class="navbar-mobile__item">
+              <a href="" class="navbar-mobile__link">HOME</a>
+            </li>
+            <li class="navbar-mobile__item">
+              <a href="Packages.html" class="navbar-mobile__link">PACKAGES</a>
+              
+            </li>
+          
+            <li class="navbar-mobile__item">
+              <a href="" class="navbar-mobile__link">ABOUT US</a>
+            
+            </li>
+            
+            <li class="navbar-mobile__item">
+              <a href="" class="navbar-mobile__link">CONTACT</a>
+            </li>
+            <li class="navbar-mobile__item">
+              <a href="" class="navbar-mobile__link">BOOK NOW</a>
+            </li>
+          </ul>
+        </label>
+        <!-- HOLIDAY -->
+        <article class="theme__holiday">
+          <h3 class="holiday__title">Search your next </h3>
+          <p class="holiday__text">Tanzanian Adventure</p>
+          <div class="holiday__search flex-box">
+            <input type="text" placeholder="Choose your destination..." class="holiday__search-btn">
+            <i class='bx bx-search'></i>
+          </div>
+          <div class="holiday__choose-wrap flex-box">
+            <div class="holiday__choose-item">
+              <a href="zanzibar.html">
+                <img src="https://leloc90.github.io/loveTravel/assets/images/t-relax.png" alt="travel Zanzibar">
+                <span>RELAX</span>
+              </a>
+            </div>
+            <div class="holiday__choose-item">
+              <a href="Kilimanjaro.html">
+                <img src="https://leloc90.github.io/loveTravel/assets/images/t-cultural.png" alt="travel zanzibar">
+                <span>HIKING</span>
+              </a>
+            </div>
+            <div class="holiday__choose-item">
+              <a href="safari.html">
+                <img src="https://leloc90.github.io/loveTravel/assets/images/t-sport.png" alt="Travel Zanzibar">
+                <span>ADVENTURE</span>
+              </a>
+            </div>
+            <div class="holiday__choose-item">
+              <a href="Packages.html">
+                <img src="https://leloc90.github.io/loveTravel/assets/images/t-history.png" alt="Travel Zanzibar">
+                <span>ACTIVITIES</span>
+              </a>
+            </div>
+          </div>
+        </article>
+      </section>
+      
+      <!-- DESTINATION -->
+
+      
+      <!-- TOURS -->
+      <section class="features">
+        <div class="container">
+            <div class="features-content">
+                <div class="section-header">
+                    <h3 class="section-head-title">Zanzibar destinations</h3>
+                </div>
+                <div class="features-cards">
+                    <div class="feature-card">
+                    <a href="2days.html"><img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/features/raja-ampat.jpg" alt="zanzbar" class="feature-img">
+                    </a>
+                        <div class="feature-card-desc">
+                            <span class="location">2 DAYS | 1 NIGHT</span>
+                            <span class="country">BOOK NOW</span>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <a href=""><img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/features/fanjingshan.jpg" alt="" class="feature-img"></a>
+                        <div class="feature-card-desc">
+                            <span class="location">Fanjingshan</span>
+                            <span class="country">China</span>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <a href=""><img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/features/vevey.jpg" alt="" class="feature-img"></a>
+                        <div class="feature-card-desc">
+                            <span class="location">Vevey</span>
+                            <span class="country">Switzerland</span>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <a href=""><img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/features/skadar.jpg" alt="" class="feature-img"></a>
+                        <div class="feature-card-desc">
+                            <span class="location">Skadar</span>
+                            <span class="country">Montenegro</span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="features-cards">
+                    <div class="feature-card">
+                        <a href=""><img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/features/raja-ampat.jpg" alt="" class="feature-img"></a>
+                        <div class="feature-card-desc">
+                            <span class="location">Raja Ampat</span>
+                            <span class="country">Indonesia</span>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <a href=""><img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/features/fanjingshan.jpg" alt="" class="feature-img"></a>
+                        <div class="feature-card-desc">
+                            <span class="location">Fanjingshan</span>
+                            <span class="country">China</span>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <a href=""><img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/features/vevey.jpg" alt="" class="feature-img"></a>
+                        <div class="feature-card-desc">
+                            <span class="location">Vevey</span>
+                            <span class="country">Switzerland</span>
+                        </div>
+                    </div>
+                    <div class="feature-card">
+                        <a href=""><img src="https://raw.githubusercontent.com/mustafadalga/tour-and-travel/master/assets/img/features/skadar.jpg" alt="" class="feature-img"></a>
+                        <div class="feature-card-desc">
+                            <span class="location">Skadar</span>
+                            <span class="country">Montenegro</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+    
+      
+      <!-- DISCOVER -->
+      <section class="discover__container">
+        <div class="discover__item discover__img-1">
+          <p>01. LAST MINUTE</p>
+          <h4>Discover Safari</h4>
+          <a href="safari.html" class="discover__btn-1">DETAILS</a>
+        </div>
+      
+        <div class="discover__item discover__img-2">
+          <p>02. PROMOTIONS</p>
+          <h4>Discover Beaches</h4>
+          <a href="zanzibar.html" class="discover__btn-2">DETAILS</a>
+        </div>
+      </section>
+      
+      <!-- PROMOTION -->
+      
+      
+      <!-- FOOTER -->
+      
+      <footer>
+        <section class="footer__container">
+      
+          <article class="footer__head">
+            <div class="footer__title" style="color: green;">
+              <p style="color: black;">KEEP IN TOUCH</p>
+              <h5 style="color: black;">Travel with us</h5>
+            </div>
+            <div class="footer__input">
+              <input type="text">
+              <a href="" class="pri-btn footer__btn">SEND</a>
+            </div>
+          </article>
+      
+          <article class="footer__body">
+            <div class="footer__body-left">
+              <div class="footer__logo">
+                <img src="./assets/images/Logo-6.png" alt="">
+              </div>
+              <p class="hide-on-mobile">
+                Welcome to Travel Zanzibar, your gateway to a remarkable African adventure! Since 2010, our dedicated team of 34 passionate professionals has been working tirelessly to create unforgettable experiences for travelers from all walks of life. We are proud to collaborate with numerous esteemed hotels and travel companies throughout Tanzania, ensuring access to the best accommodations and services in the region.
+              </p>
+              <div class="footer__social-icon">
+                <a href=""><i class='bx bxl-twitter'></i></a>
+                <a href=""><i class='bx bxl-youtube'></i></a>
+                <a href=""><i class='bx bxl-facebook'></i></a>
+                <a href="www.instagram.com/travel_zanzibar"><i class='bx bxl-instagram-alt'></i></a>
+              </div>
+            </div>
+      
+            <div class="footer__body-right">
+      
+              <div class="footer__body-info">
+                <h5>OUR AGENCY</h5>
+                <ul class="footer__info-list">
+                  <li class="footer__info-item">
+                    <i class='bx bx-chevron-right'></i>
+                    <a href="Services.html" class="footer__info-link">Services</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <i class='bx bx-chevron-right'></i>
+                    <a href="" class="footer__info-link">Insurancee</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <i class='bx bx-chevron-right'></i>
+                    <a href="" class="footer__info-link">Agency</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <i class='bx bx-chevron-right'></i>
+                    <a href="" class="footer__info-link">Tourism</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <i class='bx bx-chevron-right'></i>
+                    <a href="" class="footer__info-link">Payment</a>
+                  </li>
+                </ul>
+              </div>
+      
+              <div class="footer__body-info">
+                <h5>PARTNERS</h5>
+                <ul class="footer__info-list">
+                  <li class="footer__info-item">
+                    <i class='bx bx-chevron-right'></i>
+                    <a href="" class="footer__info-link">Booking</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <i class='bx bx-chevron-right'></i>
+                    <a href="" class="footer__info-link">RentalCar</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <i class='bx bx-chevron-right'></i>
+                    <a href="" class="footer__info-link">HostelWorld</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <i class='bx bx-chevron-right'></i>
+                    <a href="" class="footer__info-link">Trivago</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <i class='bx bx-chevron-right'></i>
+                    <a href="" class="footer__info-link">TripAdvisor</a>
+                  </li>
+                </ul>
+              </div>
+      
+              <div class="footer__body-info">
+                <h5>LAST MINUTE</h5>
+                <ul class="footer__info-list">
+                  <li class="footer__info-item">
+                    <i class='bx bx-chevron-right'></i>
+                    <a href="" class="footer__info-link">London</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <i class='bx bx-chevron-right'></i>
+                    <a href="" class="footer__info-link">California</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <i class='bx bx-chevron-right'></i>
+                    <a href="" class="footer__info-link">Indonesia</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <i class='bx bx-chevron-right'></i>
+                    <a href="" class="footer__info-link">Europe</a>
+                  </li>
+                  <li class="footer__info-item">
+                    <i class='bx bx-chevron-right'></i>
+                    <a href="" class="footer__info-link">Oceania</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+      
+          </article>
+        
+      
+        </section>
+      </footer>
+
+
+
+      <script>
+        
+      </script>
+</body>
+</div>
+</html>
